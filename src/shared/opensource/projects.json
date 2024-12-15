@@ -1,0 +1,78 @@
+{
+  "data": [
+    {
+      "id": "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzQ=",
+      "name": "FarmFiesta",
+      "createdAt": "2023-03-06T16:26:54Z",
+      "url": "https://github.com/ajayrajrthd/FarmFiesta",
+      "description": "Developed a machine learning web application for crop recommendations, incorporating image processing to detect plant diseases.",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "JavaScript",
+          "iconifyClass": "logos-javascript"
+        },
+        {
+          "name": "Python",
+          "iconifyClass": "simple-icons:python"
+        },
+        {
+          "name": "Flask",
+          "iconifyClass": "logos-flask"
+        }
+      ]
+    },
+    {
+      "id": "R_kgDOG_vYHA",
+      "name": "Campus Event Organizer",
+      "createdAt": "2024-03-13T20:41:33Z",
+      "url": "https://github.com/ajayrajrthd/event-manager-using-react",
+      "description": "Campus Event Organizer is a web application designed for university event management, featuring event listings, attendance tracking, email confirmations, and an admin dashboard, with dedicated logins for club organizers.",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "JavaScript",
+          "iconifyClass": "logos-javascript"
+        },
+        {
+          "name": "Mongodb",
+          "iconifyClass": "logos-mongodb"
+        },
+        {
+          "name": "Reactjs",
+          "iconifyClass": "logos-react"
+        },
+        {
+          "name": "Nodejs",
+          "iconifyClass": "logos-nodejs"
+        }
+      ]
+    },
+    {
+      "id": "R_kgDOJWL0-g",
+      "name": "Art Gallery",
+      "createdAt": "2022-04-13T04:18:19Z",
+      "url": "https://github.com/ajayrajrthd/Art_Gallery",
+      "description": "A software solution designed to streamline the management of gallery operations, including artwork, artist, customer, order, and payment management, with features for online catalogues and automated commission tracking.",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "HTML",
+          "iconifyClass": "logos-html-5"
+        },
+        {
+          "name": "CSS",
+          "iconifyClass": "logos-css-3"
+        },
+        {
+          "name": "JavaScript",
+          "iconifyClass": "logos-javascript"
+        },
+        {
+          "name": "php",
+          "iconifyClass": "logos-php"
+        }
+      ]
+    }
+  ]
+}
