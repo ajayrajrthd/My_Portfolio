@@ -336,13 +336,13 @@
   }
 
   .form-group {
-    width: 120%;
-    margin-left: -10%;
+    width: 135%;
+    margin-left: -20%;
   }
 
   .form-submit{
     margin-left: 2%;
-    width: 85%;
+    width: 100%;
   }
 
   .form-phone{

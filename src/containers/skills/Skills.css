@@ -84,4 +84,8 @@
   .skills-image-div > * {
     margin-top: 0px;
   }
+
+  .skills-header-div{
+    margin-top: -2%;
+  }
 }
