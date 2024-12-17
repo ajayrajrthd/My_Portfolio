@@ -9,6 +9,7 @@
 
 .contact-heading-div {
   display: flex;
+  margin-top: -3%;
 }
 
 .blog-heading-div {
@@ -37,6 +38,7 @@
   align-items: center;
   justify-content: center;
   margin-bottom: 100px;
+  margin-top: 7%;
 }
 
 .blog-heading-img-div {
@@ -90,7 +92,7 @@
   font-size: 30px;
   font-family: "Google Sans Regular";
   text-align: center;
-  margin-bottom: 10px;
+  margin-bottom: 5%;
 }
 
 .contact-header-detail-text {
@@ -100,6 +102,7 @@
   margin-left: 20px;
   margin-right: 20px;
   font-family: "Google Sans Medium";
+  margin-top: -3.2%;
 }
 
 .blog-header-detail-text {
@@ -111,11 +114,101 @@
   font-family: "Google Sans Medium";
 }
 
-.resume-btn-div {
-  width: 100%;
-  display: flex;
-  justify-content: center;
+
+/* Contact Form CSS */
+
+.contact-section {
+  margin-left: 20%;
+  width: 60%;
+  max-width: 40rem;
+  padding: 0.4rem 5rem;
+  border-style: outset;
+  border-radius: 2%;
+  margin-top: 3%;
 }
+
+.contact-title {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+  font-weight: 700;
+}
+
+.form-group-container {
+  display: grid;
+  gap: 1rem;
+  margin-top: 5%;
+  /* margin-left: 0%; */
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  /* width: 80%; */
+}
+
+.form-label {
+  margin-bottom: 0.5rem;
+
+}
+
+.form-phone-label{
+  margin-top: -0.5rem;
+  padding: 0.5rem;
+  border: 1px solid #e5e7eb;
+  display: flex;
+  height: 2.5rem;
+  flex-direction: column;
+
+}
+
+.form-phone{
+  margin-inline-end: auto;
+  margin-left: -10%;
+  
+}
+
+
+.form-input,
+.form-textarea {
+  padding: 0.9rem;
+  border: 1px solid #e5e7eb;
+  display: flex;
+  height: 2.5rem;
+  width: 100%;
+  border-radius: 0.375rem;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
+.form-input::placeholder,
+.form-textarea:focus-visible {
+  color: #6b7280;
+}
+
+.form-input:focus-visible,
+.form-textarea:focus-visible {
+  outline: 2px solid #2563eb;
+  outline-offset: 2px;
+}
+
+.form-textarea {
+  min-height: 80px;
+}
+
+.form-submit {
+  width: 50%;
+  margin-top: 1.2rem;
+  margin-bottom: 5%;
+  background-color: #050039;
+  font-family: "Google Sans Regular";
+  font-size: medium;
+  color: rgb(241, 238, 238);
+  padding: 11px 3px;
+  border-radius: 0.375rem;
+  margin-left: -5%;
+}
+
+/* Contact Form CSS end*/
 
 .blogsite-btn-div {
   width: 100%;
@@ -130,6 +223,9 @@
   margin-top: 0;
 }
 
+
+
+
 @media (max-width: 1380px) {
   .contact-heading-text {
     font-size: 50px;
@@ -140,6 +236,40 @@
     font-size: 50px;
     margin-top: 40px;
   }
+
+   /* New CSS start */
+  
+  .contact-section {
+    margin-left: 12%;
+    width: 80%;
+    margin-bottom: 30%;
+    
+  }
+
+  .form-group {
+    width: 78%;
+    margin-left: -10%;
+  }
+
+  .form-submit{
+    margin-left: 2%;
+    width: 60%;
+  }
+
+  .form-phone{
+    margin-left: -20%;
+  }
+
+  .address-heading-text {
+    margin-top: -5%;
+  }
+  
+  .address-heading-text{
+    margin-bottom: 2%;
+  }
+
+ /* New CSS end */
+
 }
 
 @media (max-width: 768px) {
@@ -155,6 +285,7 @@
 
   .address-heading-text {
     font-size: 20px;
+    margin-bottom: 5%;
   }
 
   .blog-heading-div {
@@ -193,5 +324,32 @@
     margin-right: 0px;
     line-height: normal;
     text-align: center;
+  }
+
+  /* New CSS */
+
+  .contact-section {
+    margin-left: 12%;
+    width: 80%;
+    margin-bottom: -3%;
+    
+  }
+
+  .form-group {
+    width: 120%;
+    margin-left: -10%;
+  }
+
+  .form-submit{
+    margin-left: 2%;
+    width: 85%;
+  }
+
+  .form-phone{
+    margin-left: -20%;
+  }
+
+  .address-heading-text {
+    margin-top: 2%;
   }
 }

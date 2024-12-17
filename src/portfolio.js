@@ -157,6 +157,14 @@ const competitiveSites = {
       },
       profileLink: "https://www.hackerrank.com/profile/ajayrajrthd5",
     },
+    {
+      siteName: "Kaggle",
+      iconifyClassname: "simple-icons:kaggle",
+      style: {
+        color: "#20BEFF",
+      },
+      profileLink: "https://www.kaggle.com/ajayrajrathod",
+    },
     // {
     //   siteName: "Codechef",
     //   iconifyClassname: "simple-icons:codechef",
@@ -180,14 +188,6 @@ const competitiveSites = {
     //     color: "#323754",
     //   },
     //   profileLink: "https://www.hackerearth.com/@ashutosh391",
-    // },
-    // {
-    //   siteName: "Kaggle",
-    //   iconifyClassname: "simple-icons:kaggle",
-    //   style: {
-    //     color: "#20BEFF",
-    //   },
-    //   profileLink: "https://www.kaggle.com/laymanbrother",
     // },
   ],
 };
@@ -296,11 +296,11 @@ const experience = {
       ],
     },
     {
-      title: "Volunteerships",
+      title: "Volunteerships and Contributions",
       work: true,
       experiences: [
         {
-          title: "Event Management Team Member",
+          title: "Event Management and Creative Team Member",
           company: "A. P. Shah Institute of technology",
           company_url: "https://ojus.eventsapsit.org/",
           logo_path: "ojus.png",
@@ -308,6 +308,17 @@ const experience = {
           location: "Thane, Maharashtra",
           description:
             "As a member of the event management team, I actively participated in organizing and managing technical fests and sports events at my college, contributing significantly to the successful execution of these large-scale activities.",
+          color: "#414141",
+        },
+        {
+          title: "Contributor",
+          company: "GirlScript Foundation",
+          company_url: "https://gssoc.girlscript.tech/",
+          logo_path: "gssoc_logo.png",
+          duration: "Oct 2024 - Nov 2024",
+          location: "Mumbai, Maharashtra",
+          description:
+            "As a contributor in GirlScript Summer of Code Extd, a program by GirlScript Foundation, I worked on open-source projects. Contributed in terms of documentation, fixing bugs or adding new features to multiple projects.",
           color: "#414141",
         },
       ],
@@ -362,13 +373,6 @@ const contactPageData = {
     description:
       "I’m always excited to connect and collaborate on innovative projects. Feel free to reach out to discuss opportunities, share ideas, or just connect.",
     avatar_image_path: "blogs_image.svg",
-  },
-  blogSection: {
-    // title: "Blogs",
-    // subtitle:
-    //   "I like to document some of my experiences in professional career journey as well as some technical knowledge sharing.",
-    // link: "https://blogs.ashutoshhathidara.com/",
-    // avatar_image_path: "blogs_image.svg",
   },
   addressSection: {
     title: "Address",

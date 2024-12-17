@@ -14,6 +14,7 @@
 @media (max-width: 1380px) {
   .certs-header {
     font-size: 35px;
+    margin-top: -1%;
   }
 }
 

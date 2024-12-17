@@ -60,6 +60,13 @@
   font-family: "Google Sans Medium";
 }
 
+.greeting-text-l{
+  font-family: "Google Sans Medium";
+  font-size: 35px;
+  margin-top: 1%;
+}
+
+
 .greeting-image-div > * {
   max-width: 100%;
   height: auto;
@@ -82,7 +89,7 @@
   }
   .greeting-text {
     font-size: 30px;
-    margin-top: 0px;
+    margin-top: 6px;
     text-align: center;
   }
   .greeting-nickname {
@@ -104,7 +111,8 @@
     width: 100%;
     display: flex;
     justify-content: center;
-    margin-bottom: -25%;
+    margin-bottom: -28%;
+    margin-top: -2%;
   }
 
   /* .greeting-image-div > * {
@@ -112,4 +120,9 @@
     margin-right: 25px;
     height: 300px;
 } */
+ 
+  .greeting-text-l{
+    font-size: larger;
+  }
+  
 }

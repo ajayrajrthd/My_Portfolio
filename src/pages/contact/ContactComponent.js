@@ -6,7 +6,8 @@ import SocialMedia from "../../components/socialMedia/SocialMedia";
 import Button from "../../components/button/Button";
 import { Fade } from "react-reveal";
 import "./ContactComponent.css";
-import { greeting, contactPageData } from "../../portfolio.js";
+import { contactPageData } from "../../portfolio.js";
+import 'react-phone-input-2/lib/style.css';
 
 const ContactData = contactPageData.contactSection;
 const addressSection = contactPageData.addressSection;
@@ -27,9 +28,9 @@ class Contact extends Component {
                   alt=""
                 /> */}
                 <img
-											src={require(`../../assets/images/${ContactData["avatar_image_path"]}`)}
-											alt=""
-										/>
+                  src={require(`../../assets/images/${ContactData["avatar_image_path"]}`)}
+                  alt=""
+                />
               </div>
               <br />
               <div className="contact-heading-text-div">
@@ -45,14 +46,73 @@ class Contact extends Component {
                 >
                   {ContactData["description"]}
                 </p>
-                <SocialMedia theme={theme} />
-                <div className="resume-btn-div">
-                  <Button
+                {/* <SocialMedia theme={theme} /> */}
+                <div className="form">
+                  {/* <Button
                     text="See My Resume"
                     newTab={true}
                     href={greeting.resumeLink}
                     theme={theme}
-                  />
+                  /> */}
+
+                  <section class="contact-section">
+                    <div class="contact-intro">
+                      {/* <p class="contact-header-detail-text subTitle">
+                        Get In Touch!
+                      </p> */}
+                    </div>
+                    <form class="contact-form" action="https://api.web3forms.com/submit" method="POST">
+                      <input type="hidden" name="access_key" value="d47fcdd4-6e21-493f-9f90-46da1edfa425" />
+                      <input type="hidden" name="subject" value="New Contact Form Submission from Web3Forms" />
+                      <input type="hidden" name="from_name" value="Ajayraj's Portfolio Website" />
+
+                      <div class="form-group-container">
+                        <div class="form-group">
+                          <label for="name" class="form-label">Name</label> 
+                          <input id="name" name="name" class="form-input" placeholder="Your name" type="text" />
+                        </div>
+
+
+                        <div class="form-group">
+                          <label for="email" class="form-label">Email</label>
+                          <input id="email" name="email" class="form-input" placeholder="Your email" type="email" />
+                        </div>
+
+
+                        {/* <div class="form-group">
+                          <label for="phone" class="form-label">Phone</label>
+                          <input id="phone" name="phone" class="form-input" placeholder="+91 1234567890" type="text" />
+                        </div> */}
+
+
+                        {/* <div class="form-phone">
+                          <label htmlFor="phone" class="form-phone-label">
+                            Phone
+                          </label>
+                          <PhoneInput
+                            id="phone"
+                            country={'in'}
+                            enableSearch={true}
+                            placeholder="+91 1234567890"
+                            inputProps={{
+                              name: 'phone',
+                              required: true,
+                            }}
+                            class="form-input-phone"
+                          />
+                        </div> */}
+
+
+                        <div class="form-group">
+                          <label for="message" class="form-label">Message</label>
+                          <textarea class="form-textarea" id="message" name="message" placeholder="Your message"></textarea>
+                        </div>
+                      </div>
+                      <button class="form-submit" type="submit" theme={theme}>Send Message</button>
+                    </form>
+                  </section>
+
+
                 </div>
               </div>
             </div>
@@ -81,11 +141,11 @@ class Contact extends Component {
                 </div>
               </div>
               <div className="blog-heading-img-div"> */}
-                {/* <img
+          {/* <img
 											src={require(`../../assets/images/${blogSection["avatar_image_path"]}`)}
 											alt=""
 										/> */}
-                {/* <BlogsImg theme={theme} />
+          {/* <BlogsImg theme={theme} />
               </div>
             </div>
           </Fade> */}
@@ -99,20 +159,20 @@ class Contact extends Component {
 											alt=""
 										/> */}
                 {/* <AddressImg theme={theme} /> */}
-          
-            <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d62830.51132830688!2d72.94179565671752!3d19.21324915629776!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b912081a8deb%3A0xe3da9824136cfa89!2sThane%20West%2C%20Mumbai%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1725778309964!5m2!1sen!2sin"
-                width="650"
-                height="450"
-                frameborder="0"
-                loading="lazy"
-                style={{border: 0 }}
-                allowfullscreen=""
-                aria-hidden="false"
-                referrerpolicy="no-referrer-when-downgrade"
-                tabindex="0"
-                title="Google Map location"
-            />
+
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d62830.51132830688!2d72.94179565671752!3d19.21324915629776!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b912081a8deb%3A0xe3da9824136cfa89!2sThane%20West%2C%20Mumbai%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1725778309964!5m2!1sen!2sin"
+                  width="650"
+                  height="450"
+                  frameborder="0"
+                  loading="lazy"
+                  style={{ border: 0 }}
+                  allowfullscreen=""
+                  aria-hidden="false"
+                  referrerpolicy="no-referrer-when-downgrade"
+                  tabindex="0"
+                  title="Google Map location"
+                />
               </div>
               <div className="address-heading-text-div">
                 <h1
@@ -147,6 +207,8 @@ class Contact extends Component {
                     theme={theme}
                   />
                 </div>
+                <br />
+                <SocialMedia theme={theme} />
               </div>
             </div>
           </Fade>
