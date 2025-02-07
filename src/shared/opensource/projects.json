@@ -14,7 +14,11 @@
         },
         {
           "name": "Python",
-          "iconifyClass": "simple-icons:python"
+          "iconifyClass": "logos-python"
+        },
+        {
+          "name": "Jupyter",
+          "iconifyClass": "devicon:jupyter-wordmark"
         },
         {
           "name": "Flask",
@@ -36,7 +40,7 @@
         },
         {
           "name": "Mongodb",
-          "iconifyClass": "logos-mongodb"
+          "iconifyClass": "devicon-mongodb"
         },
         {
           "name": "Reactjs",
@@ -58,19 +62,87 @@
       "languages": [
         {
           "name": "HTML",
-          "iconifyClass": "logos-html-5"
+          "iconifyClass": "devicon-html5"
         },
         {
           "name": "CSS",
-          "iconifyClass": "logos-css-3"
+          "iconifyClass": "devicon-css3"
         },
         {
           "name": "JavaScript",
           "iconifyClass": "logos-javascript"
         },
         {
+          "name": "Xampp",
+          "iconifyClass": "logos-xampp"
+        },
+        {
           "name": "php",
-          "iconifyClass": "logos-php"
+          "iconifyClass": "devicon:php"
+        }
+      ]
+    },
+    {
+      "id": "",
+      "name": "T20 Insight Hub",
+      "createdAt": "2024-01-21T04:18:19Z",
+      "url": "https://github.com/ajayrajrthd/T20-Cricket-data-analysis",
+      "description": "The Cricket Data Analytics project analyzes T20 World Cup 2022 data using Power BI, offering an interactive dashboard to evaluate performances and select the Best Playing XI based on defined criteria.",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "Python",
+          "iconifyClass": "logos-python"
+        },
+        {
+          "name": "Microsoft PowerBi",
+          "iconifyClass": "simple-icons:powerbi"
+        },
+        {
+          "name": "Numpy",
+          "iconifyClass": "devicon:numpy"
+        },
+        {
+          "name": "Pandas",
+          "iconifyClass": "devicon:pandas"
+        }
+      ]
+    },
+    {
+      "id": "",
+      "name": "NBA Player's Salary Prediction System",
+      "createdAt": "2024-09-20T04:18:19Z",
+      "url": "https://github.com/ajayrajrthd/Salary_prediction",
+      "description": "This project is an NBA players' salary prediction app built using Python and Streamlit. It predicts player salaries based on their statistics and other relevant features using machine learning models.",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "Python",
+          "iconifyClass": "logos-python"
+        },
+        {
+          "name": "Jupyter",
+          "iconifyClass": "devicon:jupyter-wordmark"
+        },
+        {
+          "name": "Streamlit",
+          "iconifyClass": "devicon:streamlit"
+        },
+        {
+          "name": "Anaconda",
+          "iconifyClass": "devicon:anaconda-wordmark"
+        },
+        {
+          "name": "Numpy",
+          "iconifyClass": "devicon:numpy"
+        },
+        {
+          "name": "Pandas",
+          "iconifyClass": "devicon:pandas"
+        },
+        {
+          "name": "Scikit-learn",
+          "iconifyClass": "devicon:scikitlearn"
         }
       ]
     }

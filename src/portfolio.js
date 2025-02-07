@@ -14,10 +14,10 @@ const seo = {
 
 //Home Page
 const greeting = {
-  title: "Ajayraj Rathod",
+  title: "AJAYRAJ RATHOD",
   logo_name: "Ajayraj Rathod",
   subTitle:
-    "A passionate individual with a strong focus on developing scalable, sustainable social and technical systems. Interested in data analytics, Python, and web development, and driven to create impactful end-to-end products.",
+    "A passionate individual with a strong focus on developing scalable, sustainable social and technical systems. Interested in Data analytics and Software development, driven to create impactful end-to-end products.",
   resumeLink:
     "https://drive.google.com/file/d/1S8tcPOHc0sYlM9-N4ax3wm4gQMTtHRPJ/view?usp=drivesdk ",
   githubProfile: "https://github.com/ajayrajrthd",
@@ -41,8 +41,27 @@ const socialMediaLinks = [
     name: "Gmail",
     link: "mailto:ajayrajrthd0@gmail.com",
     fontAwesomeIcon: "fa-google", // Reference https://fontawesome.com/icons/google?style=brands
-    backgroundColor: "#D14836", // Reference https://simpleicons.org/?q=gmail
+    backgroundColor: "#EA4335", // Reference https://simpleicons.org/?q=gmail
+  },
+  {
+    name: "Medium",
+    link: "https://medium.com/@ajayrajrthd5",
+    fontAwesomeIcon: "fab fa-medium", // Reference https://fontawesome.com/icons/google?style=brands
+    backgroundColor: "#000000", // Reference https://simpleicons.org/?q=gmail
+  },
+  {
+    name: "Kaggle",
+    link: "https://www.kaggle.com/ajayrajrathod",
+    fontAwesomeIcon: "fab fa-kaggle", // Reference https://fontawesome.com/icons/google?style=brands
+    backgroundColor: "#20BEFF", // Reference https://simpleicons.org/?q=gmail
+  },
+  {
+    name: "Youtube",
+    link: "https://www.youtube.com/@ajayrajrthd5",
+    fontAwesomeIcon: "fa-youtube", // Reference https://fontawesome.com/icons/google?style=brands
+    backgroundColor: "#FF0000", // Reference https://simpleicons.org/?q=gmail
   }
+
 ];
 
 const skills = {
@@ -69,70 +88,220 @@ const skills = {
       ],
       softwareSkills: [
         {
-          skillName: "HTML5",
-          fontAwesomeClassname: "simple-icons:html5",
-          style: {
-            color: "#E34F26",
-          },
-        },
-        {
-          skillName: "CSS3",
-          fontAwesomeClassname: "fa-css3",
-          style: {
-            color: "#1572B6",
-          },
-        },
-        {
-          skillName: "JavaScript",
-          fontAwesomeClassname: "simple-icons:javascript",
-          style: {
-            backgroundColor: "#000000",
-            color: "#F7DF1E",
-          },
-        },
-        {
-          skillName: "ReactJS",
-          fontAwesomeClassname: "simple-icons:react",
-          style: {
-            color: "#61DAFB",
-          },
-        },
-        {
-          skillName: "NodeJS",
-          fontAwesomeClassname: "devicon-plain:nodejs-wordmark",
-          style: {
-            color: "#339933",
-          },
-        },
-        {
-          skillName: "MongoDB",
-          fontAwesomeClassname: "simple-icons:mongodb",
-          style: {
-            color: "#47A248",
-          },
-        },
-        {
-          skillName: "Figma",
-          fontAwesomeClassname: "simple-icons:figma",
-          style: {
-            color: "#F24E1E",
-          },
-        },
-        {
-          skillName: "Azure",
-          fontAwesomeClassname: "simple-icons:microsoftazure",
-          style: {
-            color: "#0089D6",
-          },
-        },
-        {
           skillName: "Python",
           fontAwesomeClassname: "ion-logo-python",
           style: {
             backgroundColor: "transparent",
             color: "#3776AB",
           },
-        }
+        },
+        {
+          skillName: "HTML5",
+          fontAwesomeClassname: "devicon:html5",
+          style: {
+            color: "#E34F26",
+          },
+        },
+        {
+          skillName: "CSS3",
+          fontAwesomeClassname: "devicon:css3",
+          style: {
+            color: "#1572B6",
+          },
+        },
+        {
+          skillName: "JavaScript",
+          fontAwesomeClassname: "devicon:javascript",
+          style: {
+            backgroundColor: "#000000",
+            color: "#F7DF1E",
+          },
+        },
+        {
+          skillName: "TypeScript",
+          fontAwesomeClassname: "devicon:typescript",
+          style: {
+            backgroundColor: "transparent",
+            color: "#3776AB",
+          },
+        },
+        {
+          skillName: "ReactJS",
+          fontAwesomeClassname: "devicon:react-wordmark",
+          style: {
+            color: "#61DAFB",
+          },
+        },
+        {
+          skillName: "NodeJS",
+          fontAwesomeClassname: "devicon:nodejs-wordmark",
+          style: {
+            color: "#339933",
+          },
+        },
+        {
+          skillName: "MongoDB",
+          fontAwesomeClassname: "devicon:mongodb-wordmark",
+          style: {
+            color: "#47A248",
+          },
+        },
+        {
+          skillName: "Jupyter",
+          fontAwesomeClassname: "devicon:jupyter-wordmark",
+          style: {
+            backgroundColor: "transparent",
+            color: "#3776AB",
+          },
+        },
+        {
+          skillName: "MySQL",
+          fontAwesomeClassname: "devicon:mysql-wordmark",
+          style: {
+            backgroundColor: "transparent",
+            color: "#3776AB",
+          },
+        },
+        {
+          skillName: "Flask",
+          fontAwesomeClassname: "devicon:flask-wordmark",
+          style: {
+            backgroundColor: "transparent",
+            color: "#3776AB",
+          },
+        },
+        {
+          skillName: "Excel",
+          fontAwesomeClassname: "simple-icons:microsoftexcel",
+          style: {
+            backgroundColor: "transparent",
+            color: "green",
+          },
+        },
+        {
+          skillName: "Numpy",
+          fontAwesomeClassname: "devicon:numpy-wordmark",
+          style: {
+            backgroundColor: "transparent",
+            color: "#3776AB",
+          },
+        },
+        {
+          skillName: "Pandas",
+          fontAwesomeClassname: "devicon:pandas-wordmark",
+          style: {
+            backgroundColor: "transparent",
+            color: "#3776AB",
+          },
+        },
+        {
+          skillName: "Scikit-learn",
+          fontAwesomeClassname: "devicon:scikitlearn",
+          style: {
+            backgroundColor: "transparent",
+            color: "#3776AB",
+          },
+        },
+        {
+          skillName: "Power Bi",
+          fontAwesomeClassname: "simple-icons:powerbi",
+          style: {
+            backgroundColor: "transparent",
+            color: "#FABD14",
+          },
+        },
+        {
+          skillName: "Matplotlib",
+          fontAwesomeClassname: "devicon:matplotlib-wordmark",
+          style: {
+            backgroundColor: "transparent",
+            color: "#FABD14",
+          },
+        },
+        {
+          skillName: "Anaconda",
+          fontAwesomeClassname: "devicon:anaconda",
+          style: {
+            backgroundColor: "transparent",
+            color: "#3776AB",
+          },
+        },
+        {
+          skillName: "VS Code",
+          fontAwesomeClassname: "devicon:vscode",
+          style: {
+            backgroundColor: "transparent",
+            color: "#3776AB",
+          },
+        },
+        {
+          skillName: "GitHub",
+          fontAwesomeClassname: "devicon:github",
+          style: {
+            backgroundColor: "transparent",
+          },
+        },
+        {
+          skillName: "Git",
+          fontAwesomeClassname: "devicon:git-wordmark",
+          style: {
+            backgroundColor: "transparent",
+            color: "#3776AB",
+          },
+        },
+        {
+          skillName: "Kaggle",
+          fontAwesomeClassname: "devicon:kaggle-wordmark",
+          style: {
+            backgroundColor: "transparent",
+            color: "#3776AB",
+          },
+        },
+        {
+          skillName: "GitHub",
+          fontAwesomeClassname: "simple-icons:amazonwebservices",
+          style: {
+            backgroundColor: "transparent",
+          },
+        },
+        {
+          skillName: "firebase",
+          fontAwesomeClassname: "devicon:firebase",
+          style: {
+            backgroundColor: "transparent",
+            color: "#3776AB",
+          },
+        },
+        {
+          skillName: "Streamlit",
+          fontAwesomeClassname: "devicon:streamlit",
+          style: {
+            backgroundColor: "transparent",
+            color: "#3776AB",
+          },
+        },
+        {
+          skillName: "Android Studio",
+          fontAwesomeClassname: "devicon:androidstudio",
+          style: {
+            backgroundColor: "transparent",
+            color: "#3776AB",
+          },
+        },
+        {
+          skillName: "Azure",
+          fontAwesomeClassname: "devicon:azure",
+          style: {
+            color: "#0089D6",
+          },
+        },
+        {
+          skillName: "Figma",
+          fontAwesomeClassname: "devicon:figma",
+          style: {
+            color: "#F24E1E",
+          },
+        },
       ],
     },
   ],
@@ -198,7 +367,7 @@ const degrees = {
       title: "A. P. Shah Institute of Technology",
       subtitle: "B.E. in Computer Engineering",
       logo_path: "ApsitLogo.png",
-      duration: "Dec 2021 - May 2025",
+      duration: "Dec 2021 - Jun 2025",
       descriptions: [
         "⚡ Gained foundational knowledge in core software engineering subjects like Data Structures, Algorithms, DBMS, Operating Systems, and Artificial Intelligence.",
         "⚡ I have completed specialized courses in Data Analytics and AI/ML, certified by AICTE (All India Council for Technical Education).",

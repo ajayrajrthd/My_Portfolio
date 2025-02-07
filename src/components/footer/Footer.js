@@ -9,7 +9,7 @@ export default function Footer(props) {
     <div className="footer-div">
       <Fade>
         <p className="footer-text" >
-        <span role="img">&copy;</span> Copyright {greeting.title}
+        <span role="img">&copy;</span> Copyright Ajayraj Rathod, All rights reserved.
         </p>
         {/* <ToggleSwitch theme={props.theme} onToggle={props.onToggle}/> */}
       </Fade>

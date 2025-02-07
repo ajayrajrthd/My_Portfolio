@@ -201,12 +201,23 @@ class Contact extends Component {
                 </p>
                 <div className="address-btn-div">
                   <Button
+                    text="My Resume"
+                    newTab={true}
+                    href={"https://drive.google.com/file/d/1muGKYBB_8Bpz-hJkykzCwmT0WijKkTeR/view?usp=sharing"}
+                    theme={theme}
+                  />
+                </div>
+                
+                {/* <div className="address-btn-div">
+                  <Button
                     text="Visit on Google Maps"
                     newTab={true}
                     href={addressSection.location_map_link}
                     theme={theme}
                   />
-                </div>
+                </div> */}
+
+
                 <br />
                 <SocialMedia theme={theme} />
               </div>

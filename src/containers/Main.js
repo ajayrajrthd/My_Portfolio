@@ -46,12 +46,12 @@ export default class Main extends Component {
             render={(props) => <Contact {...props} theme={this.props.theme} />}
           />
 
-          {settings.isSplash && (
+          {/* {settings.isSplash && (
             <Route
               path="/splash"
               render={(props) => <Splash {...props} theme={this.props.theme} />}
             />
-          )}
+          )} */}
 
           <Route
             path="/projects"
