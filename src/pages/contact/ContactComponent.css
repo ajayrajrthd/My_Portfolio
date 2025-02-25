@@ -18,7 +18,8 @@
 
 .address-heading-div {
   display: flex;
-  margin-top: 80px;
+  margin-top: -30px;
+  margin-left: -90%;
 }
 
 .blog-heading-div > * {
@@ -295,7 +296,8 @@
 
   .address-heading-div {
     flex-direction: column;
-    margin-top: 60px;
+    margin-top: 20px;
+    margin-right: -90%;
   }
 
   .blog-heading-text-div {

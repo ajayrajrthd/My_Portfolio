@@ -68,7 +68,7 @@ class Contact extends Component {
 
                       <div class="form-group-container">
                         <div class="form-group">
-                          <label for="name" class="form-label">Name</label> 
+                          <label for="name" class="form-label">Name</label>
                           <input id="name" name="name" class="form-input" placeholder="Your name" type="text" />
                         </div>
 
@@ -160,19 +160,12 @@ class Contact extends Component {
 										/> */}
                 {/* <AddressImg theme={theme} /> */}
 
-                <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d62830.51132830688!2d72.94179565671752!3d19.21324915629776!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b912081a8deb%3A0xe3da9824136cfa89!2sThane%20West%2C%20Mumbai%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1725778309964!5m2!1sen!2sin"
-                  width="650"
-                  height="450"
-                  frameborder="0"
-                  loading="lazy"
-                  style={{ border: 0 }}
-                  allowfullscreen=""
-                  aria-hidden="false"
-                  referrerpolicy="no-referrer-when-downgrade"
-                  tabindex="0"
-                  title="Google Map location"
-                />
+                {/* <img
+                  src={require("../../assets/images/ajay_pfp.png")}
+                  alt="Ajayraj Rathod"
+                  style={{ objectFit: "cover", borderRadius: "10px" }}
+                /> */}
+
               </div>
               <div className="address-heading-text-div">
                 <h1
@@ -207,7 +200,7 @@ class Contact extends Component {
                     theme={theme}
                   />
                 </div>
-                
+
                 {/* <div className="address-btn-div">
                   <Button
                     text="Visit on Google Maps"

@@ -50,12 +50,6 @@ const socialMediaLinks = [
     backgroundColor: "#000000", // Reference https://simpleicons.org/?q=gmail
   },
   {
-    name: "Kaggle",
-    link: "https://www.kaggle.com/ajayrajrathod",
-    fontAwesomeIcon: "fab fa-kaggle", // Reference https://fontawesome.com/icons/google?style=brands
-    backgroundColor: "#20BEFF", // Reference https://simpleicons.org/?q=gmail
-  },
-  {
     name: "Youtube",
     link: "https://www.youtube.com/@ajayrajrthd5",
     fontAwesomeIcon: "fa-youtube", // Reference https://fontawesome.com/icons/google?style=brands
@@ -550,8 +544,6 @@ const contactPageData = {
     country: "India",
     region: "Maharashtra",
     postalCode: "400606",
-    // avatar_image_path: "address_image.svg",
-    location_map_link: "https://maps.app.goo.gl/GjuSXT23ZHzbtFZm8",
   },
   phoneSection: {
     title: "+91 7304699836",
