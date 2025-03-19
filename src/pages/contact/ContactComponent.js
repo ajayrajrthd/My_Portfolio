@@ -213,6 +213,7 @@ class Contact extends Component {
 
                 <br />
                 <SocialMedia theme={theme} />
+                <br />
               </div>
             </div>
           </Fade>
